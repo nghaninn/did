@@ -2,12 +2,6 @@
   "id": "did:web:nghaninn.github.io:did:1",
   "verificationMethod": [
     {
-      "type": "Bls12381G2Key2020",
-      "id": "did:web:nghaninn.github.io:did:1#keys-1",
-      "controller": "did:web:nghaninn.github.io:did:1",
-      "publicKeyBase58": "rDAqEpT2FJspbHL9gM1utkT2UNADn59HMiouSLoktZw8B1GsKyXB3Wd5fgDucCbMDRLcQhWHEuQrrKSf7P2NyqgFwHGbzNQ9X8EPbXakSr2cbqLghmzkGvE4ppEHVkBYc83"
-    },
-    {
       "type": "JsonWebSignature2020",
       "id": "did:web:nghaninn.github.io:did:1#keys-2",
       "controller": "did:web:nghaninn.github.io:did:1",
@@ -17,24 +11,18 @@
   ],
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/bls12381-2020/v1",
-    "https://w3id.org/security/suites/secp256k1recovery-2020/v2",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
   "authentication": [
-    "did:web:nghaninn.github.io:did:1#keys-1",
     "did:web:nghaninn.github.io:did:1#keys-2"
   ],
   "assertionMethod": [
-    "did:web:nghaninn.github.io:did:1#keys-1",
     "did:web:nghaninn.github.io:did:1#keys-2"
   ],
   "capabilityInvocation": [
-    "did:web:nghaninn.github.io:did:1#keys-1",
     "did:web:nghaninn.github.io:did:1#keys-2"
   ],
   "capabilityDelegation": [
-    "did:web:nghaninn.github.io:did:1#keys-1",
     "did:web:nghaninn.github.io:did:1#keys-2"
   ]
 }
