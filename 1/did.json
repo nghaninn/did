@@ -5,7 +5,14 @@
       "type": "Bls12381G2Key2020",
       "id": "did:web:nghaninn.github.io:did:1#keys-1",
       "controller": "did:web:nghaninn.github.io:did:1",
-      "publicKeyBase58": "rDAqEpT2FJspbHL9gM1utkT2UNADn59HMiouSLoktZw8B1GsKyXB3Wd5fgDucCbMDRLcQhWHEuQrrKSf7P2NyqgFwHGbzNQ9X8EPbXakSr2cbqLghmzkGvE4ppEHVkBYc83"
+      "publicKeyBase58": "rDAqEpT2FJspbHL9gM1utkT2UNADn59HMiouSLoktZw8B1GsKyXB3Wd5fgDucCbMDRLcQhWHEuQrrKSf7P2NyqgFwHGbzNQ9X8EPbXakSr2cbqLghmzkGvE4ppEHVkBYc83",
+      "metadata": {
+        "tokenRegistryAddress": "0x653933cBB612daB5236B641520EF3046f",
+        "tokenNetwork":{
+          "chainId": 1,
+          "name": "Ethereum"
+        }
+      }
     },
     {
       "type": "JsonWebKey2020",
