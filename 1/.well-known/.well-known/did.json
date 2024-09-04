@@ -1,0 +1,57 @@
+{
+  "id": "did:web:nghaninn.github.io:did:1:.well-known:.well-known",
+  "verificationMethod": [
+    {
+      "type": "Bls12381G2Key2020",
+      "id": "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-1",
+      "controller": "did:web:nghaninn.github.io:did:1:.well-known:.well-known",
+      "publicKeyBase58": "rDAqEpT2FJspbHL9gM1utkT2UNADn59HMiouSLoktZw8B1GsKyXB3Wd5fgDucCbMDRLcQhWHEuQrrKSf7P2NyqgFwHGbzNQ9X8EPbXakSr2cbqLghmzkGvE4ppEHVkBYc83",
+      "metadata": {
+        "tokenRegistryAddress": "0x653933cBB612daB5236B641520EF3046f",
+        "tokenNetwork": {
+          "chainId": 1,
+          "name": "Ethereum"
+        }
+      }
+    },
+    {
+      "type": "JsonWebKey2020",
+      "id": "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-2",
+      "controller": "did:web:nghaninn.github.io:did:1:.well-known:.well-known",
+      "publicKeyMultibase": "zihsNRnoJcEntZxpBn6ivm5jTs7tp5oErwhwWrJHVn4sS",
+      "blockchainAccountId": "eip155:0x653933cBB612daB5236B641520EF3046fDa6bf25"
+    },
+    {
+      "type": "Bls12381G2Key2020",
+      "id": "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-3",
+      "controller": "did:web:nghaninn.github.io:did:1:.well-known:.well-known",
+      "publicKeyBase58": "z1Yhcg5WNL6PQYmXUvkXkFFSQ5uBJ4pRUvoBNfJ1a2CXpAUmKUoC3Kf7PQFmdwYguwnKeQaWzJn5xZT9uB5yRAZaP7abxUzz2GLrZwyXX9fKLZYAQwwB8hEBhnZ4wS1FxGQ"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/bls12381-2020/v1",
+    "https://w3id.org/security/suites/secp256k1recovery-2020/v2",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "authentication": [
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-1",
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-2",
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-3"
+  ],
+  "assertionMethod": [
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-1",
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-2",
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-3"
+  ],
+  "capabilityInvocation": [
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-1",
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-2",
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-3"
+  ],
+  "capabilityDelegation": [
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-1",
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-2",
+    "did:web:nghaninn.github.io:did:1:.well-known:.well-known#keys-3"
+  ]
+}
