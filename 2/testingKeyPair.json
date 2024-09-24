@@ -1,0 +1,8 @@
+{
+  "id": "did:web:nghaninn.github.io:did:2#keys-1",
+  "type": "Bls12381G2Key2020",
+  "controller": "did:web:nghaninn.github.io:did:2",
+  "seedBase58": "9hEQ2vXp5XNMstQj58Mn77iGh7xk28hjvCGtPWijHZv4",
+  "privateKeyBase58": "6ft2VEqL283SBrVjejzg3Ynyq9V7prGTckqBawpANTLi",
+  "publicKeyBase58": "r1oqBDBhLiW7gXuXFDELsH56W5N4Fci2f4Er7wEdYxk5P7hZB9WubHWPkDHtPmJRX95QMs8hs15AoPb8qLk5h1SPM4G3ZdDPuddH12p9fo49ThNUmymQUjWBXTqE4ks7GfC"
+}
